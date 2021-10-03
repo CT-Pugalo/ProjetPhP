@@ -42,3 +42,5 @@ Un Organisateur est un participant defini par les evenements qu'il organise.
 
 Un Utilisateur peux devenir un organisateur ou un participant, un organisateur peu aussi etre un participant.
 (Un Utilisateur devient un participant quand il s'inscrit a un evenement et redevient Utilisateur si il n'est pas inscrit a un evenement).
+
+Un administrateur peux voir les evenements nouvellements creer, les approuver, les refuser, ou demander des modifications
