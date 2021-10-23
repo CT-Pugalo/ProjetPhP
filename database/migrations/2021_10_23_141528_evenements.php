@@ -18,6 +18,7 @@ class Evenements extends Migration
             $table->string('name', 255);
             $table->unsignedInteger('paf');
             $table->foreignId('type_id')->constrained();
+            $table->foreignId('team_id')->constrained();
             $table->unsignedInteger('nbPersonne');
             $table->timestamps();
         });

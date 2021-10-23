@@ -17,7 +17,7 @@ class Lots extends Migration
         $table->id();
         $table->string('intitule');
         $table->unsignedInteger('prix');
-        $table->foreignId('evenement_id')->constrained();
+        $table->foreignId('evenement_id')->nullable()->constrained();
         $table->timestamps();
     });
     }
